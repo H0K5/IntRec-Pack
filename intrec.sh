@@ -222,7 +222,7 @@ and supporting features have been installed as well." && sleep 1
 			notification "Hueristics indicate Nmap is currently installed."
 		else
 			notification "Installing nmap..."
-			sudo apt-get install nmap
+			sudo apt-get install -y nmap
 		fi
 	fi	
 		
